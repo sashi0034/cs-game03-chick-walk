@@ -21,8 +21,3 @@
 
 ・ジャンプ Enter
  
-# Author
- 
-* 作成者 sashi
-* 所属 KMC
- 
