@@ -1,4 +1,4 @@
-# ChickRun
+# Chick Walk
 
 これはwindows用ゲームです
  
