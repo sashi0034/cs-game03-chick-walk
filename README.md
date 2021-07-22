@@ -21,11 +21,6 @@
 
 ・ジャンプ Enter
  
- 
-# Note
- 
-特になし
- 
 # Author
  
 * 作成者 sashi
