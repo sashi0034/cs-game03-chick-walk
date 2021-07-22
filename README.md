@@ -9,17 +9,17 @@
  
 # Features
  
-ひよこ
- 
+・全部で25ステージ作ってあります
+
 # Requirement
  
 * DxLibDotNet 3.2.2
- 
+
 # Usage
  
-移動 W, A, S, D or 矢印キー
+・移動 W, A, S, D or 矢印キー
 
-ジャンプ Enter
+・ジャンプ Enter
  
  
 # Note
