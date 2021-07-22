@@ -18,6 +18,7 @@
 # Usage
  
 移動 W, A, S, D or 矢印キー
+
 ジャンプ Enter
  
  
