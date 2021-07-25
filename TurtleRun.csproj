@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{E81A07EA-4B2D-49BB-A903-9DBD8140531E}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <RootNamespace>TurtleRun</RootNamespace>
     <AssemblyName>TurtleRun</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>

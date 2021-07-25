@@ -38,8 +38,16 @@ namespace ChickRun
             int loop_count = 0;
 
 
-            // ウインドウモードで起動
+
+            // スクリーンモードを選択して起動
             DX.ChangeWindowMode(DX.TRUE);
+
+            // フルスクリーンモード時の解像度モードをモニターの解像度を最大にするモードに設定
+            DX.SetFullScreenResolutionMode(DX.DX_FSRESOLUTIONMODE_NATIVE);
+
+            // フルスクリーンモード時の画面の拡大モードを最近点モードに設定
+            DX.SetFullScreenScalingMode(DX.DX_FSSCALINGMODE_NEAREST);
+
             DX.SetGraphMode((int)(DRAW_WIDTH * draw_scale), (int)(DRAW_HEIGHT * draw_scale), 16);
 
             DX.SetAlwaysRunFlag(1); //非アクティブ状態でも動かす
@@ -196,6 +204,13 @@ namespace ChickRun
             {
                 Title_Start();
 
+                int ttt = DX.MakeScreen(48, 48,1);
+                int ttttt = Sprite.Set(ttt,0,0,48,48);
+                Sprite.Offset(ttttt, 80, 80,-1000);
+                int i=DX.SetDrawScreen(ttt);
+                Console.WriteLine($"{ttt},{i}");
+                DX.DrawGraph(0,0, Hndl_chick,1);
+
                 bool f = false;
                 Input.Start();
                 while (DX.ProcessMessage() != -1)
@@ -215,7 +230,7 @@ namespace ChickRun
                     }
 
                     Title_Update();
-
+                    Sprite.Drawing();
                     Screen_Project();
                     DX.ScreenFlip();
                 }
