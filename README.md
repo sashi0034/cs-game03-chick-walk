@@ -15,4 +15,4 @@ Windows用ゲームです
 # Requirement
  
 * DxLibDotNet 3.2.2
-* ブランチにあるImagesはbin/Debugとbin/releseへ入れます
+* ブランチにあるAssetsはbin/Debugとbin/releseへ入れます
