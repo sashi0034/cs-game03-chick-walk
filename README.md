@@ -1,23 +1,18 @@
 # Chick Walk
 
-これはwindows用ゲームです
+Windows用ゲームです
+全部で25ステージ作ってあります
  
-# DEMO
+・移動 W, A, S, D or 矢印キー
+・ジャンプ Enter
  
-![image](https://user-images.githubusercontent.com/82739042/126602479-b634eb89-6a26-4c62-8ba3-560d22d5a1f8.png)
 
+# スクリーンショット
  
-# Features
- 
-・全部で25ステージ作ってあります
+![image]![screenshot](https://user-images.githubusercontent.com/82739042/132970028-78171e4f-b8f2-448c-a808-b78844299314.png)
+
 
 # Requirement
  
 * DxLibDotNet 3.2.2
-
-# Usage
- 
-・移動 W, A, S, D or 矢印キー
-
-・ジャンプ Enter
- 
+* ブランチにあるImagesはbin/Debugとbin/releseへ入れます
