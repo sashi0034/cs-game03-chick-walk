@@ -10,8 +10,8 @@ namespace ChickRun
 { 
     static class ProgramProperty
     {
-        public const string version = "1.0.0";
-        public const string published = "2021/07/22";
+        public const string version = "1.0.1";
+        public const string published = "2021/07/22 - 2021/09/12";
         public const string maker = "sashi";
     }
 
@@ -25,6 +25,7 @@ namespace ChickRun
         const int DRAW_HEIGHT = 240;
 
         static Random rand = new Random();
+
 
 
         static public string[,] map_matrix = new string[0,0];
